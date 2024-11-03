@@ -1,0 +1,70 @@
+body {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #1e1e1e;
+}
+
+.navbar-brand,
+.nav-link,
+.navbar-toggler {
+    color: #ffffff !important;
+}
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+.hero-section {
+    padding: 50px 0;
+}
+
+.hero-section .btn {
+    margin-right: 10px;
+}
+
+.section-title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.content-section {
+    margin-bottom: 50px;
+}
+
+.pricing-section {
+    padding: 50px 0;
+}
+
+.pricing-card {
+    background-color: #2e2e2e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.pricing-card.popular {
+    background-color: #1e1e1e;
+    border: 2px solid #28a745;
+}
+
+.pricing-card .btn {
+    margin-top: 10px;
+}
+
+@media (max-width:576px) {
+    body{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+} 
+
+@media (max-width:768px) {
+    img{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
